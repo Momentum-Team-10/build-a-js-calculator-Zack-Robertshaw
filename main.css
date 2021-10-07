@@ -6,8 +6,6 @@
 .main {
     height: 500px;
     width: 300px;
-    /* display: grid;
-    grid-template-columns: 1fr 3fr; */
     
 }
 button {
@@ -20,7 +18,7 @@ button {
 }
 
 
-#operation {
+#display {
     height: 50px;
     width: 150px;
     padding: 0px;
@@ -28,6 +26,10 @@ button {
 
 #row1 {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
 
+}
+#row {
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
