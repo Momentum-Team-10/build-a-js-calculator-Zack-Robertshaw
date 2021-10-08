@@ -1,5 +1,6 @@
 let display = document.getElementById('display')
 let clear = document.getElementById('clear')
+let equals = document.getElementById('equals')
 
 let buttons = document.querySelectorAll('.number-button')
 
@@ -10,16 +11,15 @@ for (let button of buttons) {
     })
 }
 
-let equals = document.getElementById('equals')
-// let clear = document.getElementById('clear')
-
 equals.addEventListener('click', () => {
    display.innerText = eval(display.innerText)
 })
 
-// clear.addEventListener('click', () => {
-//     display.innerText = eval(display.innerText)
-//  })
+clear.addEventListener('click', () => {
+    display.innerText = ""
+})
+
+
  
 
 
